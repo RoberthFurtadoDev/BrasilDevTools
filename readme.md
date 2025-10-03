@@ -1,4 +1,4 @@
-# 🇧🇷 BrasilDevTools: O Canivete Suíço para Desenvolvedores
+# 🇧🇷 BrasilDevTools: Gerador de dados.
 
 ![Java](https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=openjdk) ![Spring](https://img.shields.io/badge/Spring_Boot-3.3.x-green?style=for-the-badge&logo=spring) ![Spring WebFlux](https://img.shields.io/badge/Spring_WebFlux-reactive-lightgrey?style=for-the-badge&logo=spring) ![Maven](https://img.shields.io/badge/Maven-3.9+-orange?style=for-the-badge&logo=apachemaven) ![Swagger](https://img.shields.io/badge/SpringDoc_OpenAPI-2.5.x-blue?style=for-the-badge&logo=swagger) ![JUnit](https://img.shields.io/badge/JUnit_5-Testing-red?style=for-the-badge&logo=junit5)
 
@@ -136,6 +136,8 @@ curl -X GET "http://localhost:8080/api/password/generate?length=16&symbols=true"
 - [ ] Qualidade: Adicionar uma suíte de testes de integração.
 
 - [ ] Performance: Implementar cache com Caffeine ou Redis.
+
+#### Documentação: **http://localhost:8080/swagger-ui/index.html**
 
 ✍️ Autores: Roberth Furtado & Max Jennyfer. 
 
