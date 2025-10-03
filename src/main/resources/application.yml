@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: autotools
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+api:
+  receitaws:
+    url: "https://brasilapi.com.br/api/cnpj/v1"
+
+  veiculo:
+    url: "https://brasilapi.com.br/api/fipe/placas/v1"
